@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# settings
+
+/config/secret_settings.py
+
 # Distribution / packaging
 .Python
 env/
