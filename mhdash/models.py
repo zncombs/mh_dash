@@ -1,5 +1,8 @@
 from django.db import models
 
+import django
+django.setup()
+
 # Create your models here.
 
 class Carouseldata(models.Model):
