@@ -16,6 +16,8 @@ from . import secret_settings
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+import os
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settingss")
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
